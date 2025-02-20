@@ -9,7 +9,7 @@ image_file = os.path.join("image", "power_page-0001.jpg")
 
 # Debugging: Print current working directory
 st.write(f"Current Directory: {os.getcwd()}")
-st.write(f"Looking for file at: {image_file}"
+st.write(f"Looking for file at: {image_file}")
 
 # Check if file exists before displaying
 if os.path.exists(image_file):
