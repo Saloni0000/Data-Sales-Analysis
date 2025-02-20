@@ -15,7 +15,7 @@ st.write(f"Looking for file at: {image_file2}")
 st.write(f"Looking for file at: {image_file3}")
 
 # Check if file exists before displaying
-if os.path.exists(image_file):
+if os.path.exists(image_file1,image_file2,image_file3):
     st.image(image_file1, caption="Power BI Report Visualization", use_container_width=True)  # Updated parameter
     st.image(image_file2, caption="Power BI Report Visualization", use_container_width=True)  # Updated parameter
     st.image(image_file3, caption="Power BI Report Visualization", use_container_width=True)  # Updated parameter
