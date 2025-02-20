@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Power BI Chart in Streamlit")
 
-image_file = r"C:\Users\sarve\Downloads\ilovepdf_pages-to-jpg\power_page-0001.jpg"  # Use raw string
+image_file = r"image\power_page-0001.jpg"  # Use raw string
 
 # Check if file exists before displaying
 if os.path.exists(image_file):
